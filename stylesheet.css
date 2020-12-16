@@ -177,6 +177,30 @@ a{
     box-shadow: 0px 2px 3px black;
     cursor: pointer;
 }
+.blog{
+    margin-top: 0.8rem;
+    padding: 2rem 4rem; 
+}
+.blogHead{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-top: 1px solid var(--brown);
+    border-bottom: 1px solid var(--brown);
+}
+.blogInfo{
+    padding: 2rem 0rem;
+    font-size: 1.1rem;
+}
+.blogImg{
+    
+    padding: 1rem;
+    max-width: 750px;
+    display: block;
+    margin: 2rem auto;
+
+}
 
 @media only screen and (max-width: 500px){
     .container{
@@ -222,5 +246,14 @@ a{
     .codeBtn{
         padding: 0.5rem;
         font-size: 1rem;
+    }
+    .blog{
+        padding: 1rem;
+    }
+    .blogInfo{
+        font-size: 0.9rem;
+    }
+    .blogImg{
+        max-width: 250px;
     }
 }
