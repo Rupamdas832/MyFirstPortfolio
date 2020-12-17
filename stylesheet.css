@@ -65,6 +65,9 @@ a{
     border-radius: 20px 0px 20px 0px;;
     background-color: var(--yellowLight);
 }
+.name{
+    color: white;
+}
 .info{
     padding: 3rem 7rem 3rem 5rem;
     color: rgb(63, 65, 50);
@@ -79,7 +82,7 @@ a{
     align-items: center;
 }
 .learningSub{
-    padding: 10px;
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
@@ -211,14 +214,14 @@ a{
         font-size: 0.7rem;
     }
     .heading{
-        font-size: 1.2rem;
-        padding: 0.2rem;
+        font-size: 0.9rem;
+        padding: 0.8rem;
         text-align: center;
     }
     .info{
-        padding: 1rem;
+        padding: 1.2rem;
         color: rgb(63, 65, 50);
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .subHead{
         font-size: 1.3rem;
@@ -226,6 +229,15 @@ a{
     .subInfo{
         font-size: 1rem;
         padding: 1rem;
+    }
+    .btn{
+        font-size: 0.9rem;
+        padding: 0.7rem;
+    }
+    .learningSub{
+        padding: 0.8rem;
+        grid-gap: 2rem;
+        font-size: 1.1rem;
     }
     .project{
         padding: 0.4rem;
@@ -252,7 +264,7 @@ a{
         padding: 1rem;
     }
     .blogInfo{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .blogImg{
         max-width: 250px;
