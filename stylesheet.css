@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@600&display=swap');
 :root{
-    --yellowLight:  rgb(105, 143, 105);
-    --yellowDark: rgb(189, 201, 170);
+    --yellowLight:  rgb(86,82,100);
+    --yellowDark: rgb(214,207,203);
     --brown:  rgb(30, 46, 38);
 }
 *{
