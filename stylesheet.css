@@ -103,7 +103,6 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .btn{
     padding: 1rem;
