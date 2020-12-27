@@ -21,14 +21,63 @@
         <div class="blog">
             <h2 class="blogHead">Mock API</h2>
             <p>Date: November 2020</p>
-            <img src="https://cdn.vodafone.co.uk/en/assets/images/large2X/IMG_Hero_fake_news_need_to_know.jpg" alt="image" class="blogImg"/>
-            <p class="blogInfo">Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?</p>
-            <iframe class="blogImg"
-                src="https://www.youtube.com/watch?v=nTIpTmUecUI?autoplay=1&mute=1&loop=1">
-            </iframe>
-            <p class="blogInfo">Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?</p>
-            <h3>Heading 2</h3>
-            <p class="blogInfo">Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?Have a look at some of my projects that I made on the go. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fugiat animi provident quibusdam reiciendis, quia laudantium doloremque ullam quasi iure non ducimus! Hic necessitatibus quia incidunt quas temporibus maiores corrupti?</p>
+            <img src="https://cdn.vodafone.co.uk/en/assets/images/large2X/IMG_Hero_fake_news_need_to_know.jpg" alt="image" class="blogImgMain"/>
+            <p class="blogInfo">You are a Frontend Developer and you need API to get json data from a server to make your front-end app alive. But you don't always need a real web service to test your app. You can mock(or fake) an API. </p>
+            <h3>Why Mock API</h3>
+            <p class="blogInfo">Here are some reasons to use Mock API</p>
+            <ol>
+                <li>
+                    <p class="blogInfo">No real working API: When the Front-end and Back-end teams are working parallelly, there is no finished API to give data to front-end. So front-end requires dummy data to build  your UI against. So mock API allows you to begin development without waiting for the API team to build the services.</p>
+                </li>
+                <li>
+                    <p class="blogInfo">API call limit: There could be hourly/daily call limits OR API calls can be sometimes expensive to call repeatedly. So, it offers consistent, instantaneous responses to test UI.</p>
+                </li>
+                <li>
+                    <p class="blogInfo">Work Offline: If you have internet issues, your app would still work given that it is mocking data locally.</p>
+                </li>
+            </ol>
+            <h3>Lets Create a Mock API</h3>
+            <ul>
+                <li>
+                    <p class="blogInfo">Lets start with creating a folder backend and initialize npm inside it. It will ask some questions. Just press "Enter" for every question asked</p>
+                    <img src="./images/1.png" alt="image" class="blogImg"/>
+                    <img src="./images/2.png" alt="image" class="blogImg"/>
+                </li>
+                <li>
+                    <p class="blogInfo">Next install express in your app</p>
+                    <img src="./images/3.png" alt="image" class="blogImg"/>
+                </li>
+                <li>
+                    <p class="blogInfo">It should create some files with dependencies inside the backend folder. Now create a <span class="blogInfoHighlights">"index.js"</span> file inside the backend folder. And type the following code inside it.</p>
+                    <img src="./images/5.png" alt="image" class="blogImg"/>
+                </li>
+                <li>
+                    <p class="blogInfo">Finally, to start your server, run <span class="blogInfoHighlights">"node index.js"</span> in terminal</p>
+                    <p class="blogInfo">In terminal you should see <span class="blogInfoHighlights">"SERVER is running at PORT 3002"</span></p>
+                    <p class="blogInfo">Your own server is ready now</p>
+                </li>
+                <h3>Let us Test it</h3>
+                <ol>
+                    <li>Open your favourite browser</li>
+                    <li>Navigate to <span class="blogInfoHighlights">"http//:localhost:3002/"</span></li>
+                    <li>You should see the response. <span class="blogInfoHighlights">"HIII you are using MOCK API"</span></li>
+                </ol>
+                <li>
+                    <img src="./images/6.png" alt="image" class="blogImg"/>
+                </li>
+                <li>
+                    <p class="blogInfo">Now make a different GET request at different route <span class="blogInfoHighlights">"/users"</span> as shown bellow.</p>
+                    <img src="./images/7.png" alt="image" class="blogImg"/>
+                    <p class="blogInfo">NOTE: Every time you make changes in <span class="blogInfoHighlights">"index.js"</span>, you have to cancel the previous server and restart the server by running <span class="blogInfoHighlights">"node index.js"</span> in terminal.</p>
+                </li>
+                <li>
+                    <p class="blogInfo">Hit the route <span class="blogInfoHighlights">"localhost:3002/users"</span> for a GET request.</p>
+                    <img src="./images/8.png" alt="image" class="blogImg"/>
+                </li>
+                    <p class="blogInfo"></p>  
+            </ul>
+            <p class="blogInfo">Bingo! your own API is ready to serve json data to your frontend.</p>
+            <h3>Thank you for reading.</h3>
         </div>
     </div>
 </body>

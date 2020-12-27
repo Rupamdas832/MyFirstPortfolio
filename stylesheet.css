@@ -190,7 +190,11 @@ a{
 }
 .blog{
     margin-top: 0.8rem;
-    padding: 2rem 4rem; 
+    padding: 2rem 4rem;
+}
+.blog h3{
+    margin: 1rem;
+    font-size: 1.5rem;
 }
 .blogHead{
     font-size: 3rem;
@@ -201,16 +205,23 @@ a{
     border-bottom: 1px solid var(--brown);
 }
 .blogInfo{
-    padding: 2rem 0rem;
+    padding: 0.5rem 0rem;
     font-size: 1.1rem;
 }
-.blogImg{
-    
-    padding: 1rem;
+.blogInfoHighlights{
+    font-weight: 700;
+}
+.blogImgMain{ 
+    padding: 0.8rem;
     max-width: 750px;
     display: block;
     margin: 2rem auto;
-
+}
+.blogImg{ 
+    padding: 0.8rem;
+    max-width: 750px;
+    display: block;
+    margin: 2rem auto;
 }
 
 @media only screen and (max-width: 500px){
@@ -273,7 +284,12 @@ a{
     .blogInfo{
         font-size: 0.8rem;
     }
-    .blogImg{
+    .blogImgMain{
         max-width: 250px;
+    }
+    .blogImg{
+       max-width: 250px;
+       margin-left: -2rem; 
+       margin-top: auto;
     }
 }
